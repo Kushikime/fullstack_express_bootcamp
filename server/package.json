@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "NodeJs REST API Backend application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --passWithNoTests",
+    "start:dev": "nodemon src/index.js",
+    "start:prod": "node src/index.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "RestAPI"
+  ],
+  "author": "Erik Demchak",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4"
+  }
+}
